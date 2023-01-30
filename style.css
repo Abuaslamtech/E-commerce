@@ -1,0 +1,514 @@
+:root {
+  --contBg: #ff414d;
+  --linkC: #000;
+  --secondary: #fff;
+  --tertiary: #f7f9ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: auto;
+  background: var(--secondary);
+  width: 96vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.3);
+}
+header h3 {
+  font-size: 2rem;
+  color: var(--contBg);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+  color: var(--linkC);
+}
+a:hover {
+  color: var(--contBg);
+}
+.container {
+  background: var(--contBg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  height: 80vh;
+  margin: auto;
+}
+.container h2,
+.container p {
+  color: var(--secondary);
+}
+.mainleft,
+.mainright {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30vw;
+  margin: auto;
+}
+button {
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--contBg);
+  background-color: var(--secondary);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.fContainer {
+  height: 90vh;
+  text-align: center;
+  margin-top: 5rem;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+img {
+  width: 35vw;
+}
+.blue {
+  width: 475px;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+.feat1 {
+  border: 2px solid var(--contBg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 15rem;
+  width: 12rem;
+  padding: 2rem;
+}
+.feat2 {
+  border: 2px solid var(--contBg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 15rem;
+  width: 12rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.feat3 {
+  border: 2px solid var(--contBg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 15rem;
+  width: 12rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.feat4 {
+  border: 2px solid var(--contBg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 15rem;
+  width: 12rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.feat1:hover,
+.feat2:hover,
+.feat3:hover,
+.feat4:hover {
+  background: var(--contBg);
+  color: var(--secondary);
+  transition: 0.8s;
+}
+.about {
+  height: 80vh;
+  margin-top: 5rem;
+  background: var(--tertiary);
+  padding: 4rem;
+  text-align: center;
+}
+.aboutC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-top: 5rem;
+}
+.cone {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.lone {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.products {
+  margin-top: 5rem;
+  height: 80vh;
+  text-align: center;
+}
+.Lproducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.product1 img {
+  height: 20rem;
+  width: 20rem;
+}
+.product1 {
+  background: var(--tertiary);
+  border: 1px solid rgba(255, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+.product1 button {
+  background-color: var(--contBg);
+  color: var(--secondary);
+}
+.product1:hover {
+  border: 1px solid var(--contBg);
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.subs {
+  margin: auto;
+  margin-top: 5rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80vw;
+}
+.email {
+  box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.subs input {
+  width: 20vw;
+  height: 4rem;
+  border-radius: 2rem;
+  outline: none;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+.email button {
+  height: 4rem;
+  margin-left: 3rem;
+  border-radius: 1rem 2rem;
+  background: var(--contBg);
+  color: var(--secondary);
+  box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.3);
+}
+.Pcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-top: 5rem;
+  background: var(--tertiary);
+  padding: 5rem;
+}
+.contact {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+}
+.form {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.3);
+}
+.text {
+  margin: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+textarea {
+  width: 20rem;
+  height: 10rem;
+  background: var(--tertiary);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.name,
+.emailC {
+  font-size: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  width: 20rem;
+  background-color: var(--tertiary);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+footer {
+  text-align: center;
+  background-color: var(--contBg);
+  color: var(--secondary);
+  padding: 2rem;
+}
+footer h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 4rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+  body {
+    margin: auto;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+  nav {
+    display: none;
+  }
+  .container {
+    width: 95%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    height: 80vh;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 0.5rem;
+    margin-bottom: 10rem;
+  }
+  .container img {
+    width: 60%;
+  }
+  .mainleft,
+  .mainright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+  .mainleft h2 {
+    font-size: 2rem;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .blue {
+    width: 80%;
+  }
+  .feat1,
+  .feat2,
+  .feat3,
+  .feat4 {
+    width: 70%;
+  }
+  .wfeatures {
+    flex-direction: column;
+  }
+  .row1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .products {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5rem;
+    width: 90%;
+  }
+  .oap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+  }
+  .products p {
+    text-align: left;
+    margin: auto;
+  }
+  .Lproducts {
+    flex-direction: column;
+  }
+  .about {
+    height: 100%;
+    margin-top: 80rem;
+    padding: 1rem;
+  }
+  .aboutC {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .cone {
+    width: 95%;
+  }
+  .ctwo img {
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+  .lone {
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+  }
+  .product1 {
+    width: 90%;
+  }
+  .subs {
+    margin: auto;
+    margin-top: 100rem;
+    width: 90%;
+  }
+  .email {
+    box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .subs input {
+    width: 40vw;
+    height: 3rem;
+  }
+  .email button {
+    height: 3rem;
+    margin-left: 1rem;
+  }
+  .contact {
+    flex-direction: column-reverse;
+    width: 90vw;
+  }
+  .form {
+    width: 90%;
+  }
+  .name,
+  .emailC,
+  textarea {
+    width: 90%;
+  }
+  .feat1,
+  .feat2,
+  .feat3,
+  .feat4 {
+    box-shadow: 1px 1px 6px 0px rgba(255, 0, 0, 0.3);
+    border: none;
+  }
+}
