@@ -361,7 +361,7 @@ p {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   nav {
     display: none;
