@@ -371,12 +371,11 @@ p {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding: 8rem;
     padding-bottom: 10rem;
     height: 80vh;
     margin: auto;
     margin-top: 4rem;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 10rem;
   }
   .container img {
