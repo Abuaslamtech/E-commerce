@@ -388,8 +388,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 100%;
-    margin: auto;
+    width: 90%;
   }
   .mainleft h2 {
     font-size: 2rem;
